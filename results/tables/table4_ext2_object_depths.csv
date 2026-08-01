@@ -1,0 +1,17 @@
+label,category,score,depth_m,rank
+door,Structural,0.843,6.13,14
+board,Structural,0.785,6.25,16
+window,Structural,0.728,6.08,12
+wall clock,Fixture,0.630,6.10,13
+wall,Structural,0.604,6.19,15
+chair,Furniture,0.556,1.82,1
+chair,Furniture,0.543,2.89,8
+chair,Furniture,0.495,2.81,5
+chair,Furniture,0.492,1.86,2
+desk,Furniture,0.447,2.40,3
+desk,Furniture,0.399,2.47,4
+floor,Structural,0.383,3.33,10
+desk,Furniture,0.383,2.81,6
+chair,Furniture,0.385,2.86,7
+desk,Furniture,0.369,5.05,11
+chair,Furniture,0.369,2.98,9

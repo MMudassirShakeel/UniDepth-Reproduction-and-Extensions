@@ -1,0 +1,19 @@
+# Core numerical / imaging
+numpy
+pandas
+opencv-python-headless
+scikit-image
+scipy
+matplotlib
+Pillow
+
+# Deep learning
+torch
+torchvision
+
+# UniDepth (install separately — see README "Installation")
+# git+https://github.com/lpiccinelli-eth/UniDepth.git
+huggingface_hub
+
+# Extension II — open-vocabulary detection + captioning
+transformers

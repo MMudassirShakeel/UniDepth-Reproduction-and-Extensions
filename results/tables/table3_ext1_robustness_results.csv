@@ -1,0 +1,10 @@
+family,severity,MAE_m,RMSE_m,Rel_pct,SSIM,Agree_at_5pct,observation
+Low light,gamma=0.7,0.094,0.098,2.01,0.999,99.62,Near-lossless (baseline)
+Low light,gamma=0.5,0.807,0.838,17.26,0.973,0.02,Sharp scale collapse
+Low light,gamma=0.3,1.765,1.820,37.93,0.928,0.00,Severe collapse
+Noise,sigma=0.02,0.544,0.568,11.96,0.977,0.06,Non-monotonic worst case
+Noise,sigma=0.05,0.223,0.262,5.50,0.977,62.66,Recovers vs. sigma=0.02
+Noise,sigma=0.10,0.172,0.255,5.37,0.971,61.41,Stable, best of the family
+Blur,k=5,0.159,0.199,2.99,0.982,95.27,Mild, near-lossless
+Blur,k=9,0.456,0.515,8.82,0.966,8.95,Moderate, monotonic
+Blur,k=15,0.508,0.573,9.95,0.956,4.04,Worst blur, still monotonic
