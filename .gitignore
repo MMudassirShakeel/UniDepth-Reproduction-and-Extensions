@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local run artifacts (regenerate via the scripts/notebook — don't commit large local runs)
+outputs/
+*.pt
+*.pth
+checkpoints/
+
+# Large local test images (keep sample_images/ small and tracked; ignore ad-hoc drops)
+local_test_images/
